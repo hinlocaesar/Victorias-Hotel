@@ -1,0 +1,15 @@
+{
+  "name": "victorias-hotel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official website for The Victorias Hotel and Aquatic Center, Victorias City, Negros Occidental.",
+  "scripts": {
+    "start": "node server.js",
+    "screenshots": "node scripts/screenshot.js",
+    "check:layout": "node scripts/layout.js",
+    "test": "node scripts/assert.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.1"
+  }
+}
