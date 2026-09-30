@@ -11,6 +11,8 @@ Negros Occidental, Philippines.
 ```bash
 npm start          # static server on http://localhost:4173
 npm run screenshots # capture shots/ at desktop, tablet and mobile (separate terminal)
+npm test            # 17-check layout/behaviour assertion suite
+npm run test:server # confirm the static server survives hostile requests
 ```
 
 There is no build step — `index.html`, `assets/css/styles.css` and `assets/js/main.js`

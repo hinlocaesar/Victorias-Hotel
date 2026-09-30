@@ -7,7 +7,8 @@
     "start": "node server.js",
     "screenshots": "node scripts/screenshot.js",
     "check:layout": "node scripts/layout.js",
-    "test": "node scripts/assert.js"
+    "test": "node scripts/assert.js",
+    "test:server": "node scripts/server-test.js"
   },
   "devDependencies": {
     "playwright": "^1.49.1"
